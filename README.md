@@ -2,6 +2,7 @@
 
 Done:
 * e254 - Atbash Cipher
+* e260 - Garage door (finish state machine)
 * e263 - Shannon Entropy
 * e264 - Magic Square
 * e266 - Node Degrees

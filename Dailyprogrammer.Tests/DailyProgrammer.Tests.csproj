@@ -61,6 +61,7 @@
     <Compile Include="e266_Tests.cs" />
     <Compile Include="ITest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="e260_Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DailyProgrammer\DailyProgrammer.csproj">

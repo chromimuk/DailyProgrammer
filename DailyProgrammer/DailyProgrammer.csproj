@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="e254_Atbash_Cipher.cs" />
+    <Compile Include="e260_Garage_Door.cs" />
     <Compile Include="e263_Shannon_Entropy.cs" />
     <Compile Include="e264_Magic_Square.cs" />
     <Compile Include="e266_Node_Degrees.cs" />
