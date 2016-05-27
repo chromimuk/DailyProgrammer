@@ -18,16 +18,16 @@ namespace Dailyprogrammer.Tests
         [TestCategory("e260"), TestMethod]
         public void Example1()
         {
-            e260_Garage_Door.Commands[] commands = new e260_Garage_Door.Commands[]
+            e260_Garage_Door.Actions[] commands = new e260_Garage_Door.Actions[]
             {
-                e260_Garage_Door.Commands.Click,
-                e260_Garage_Door.Commands.Wait,
-                e260_Garage_Door.Commands.Click,
-                e260_Garage_Door.Commands.Click,
-                e260_Garage_Door.Commands.Click,
-                e260_Garage_Door.Commands.Click,
-                e260_Garage_Door.Commands.Click,
-                e260_Garage_Door.Commands.Wait,
+                e260_Garage_Door.Actions.Click,
+                e260_Garage_Door.Actions.Wait,
+                e260_Garage_Door.Actions.Click,
+                e260_Garage_Door.Actions.Click,
+                e260_Garage_Door.Actions.Click,
+                e260_Garage_Door.Actions.Click,
+                e260_Garage_Door.Actions.Click,
+                e260_Garage_Door.Actions.Wait,
             };
 
             int[] expected = new int[]
