@@ -6,20 +6,25 @@
         {
             // string[] lines = Tools.ReadFile("res\\e266_input.txt");
 
-            e260_Garage_Door.Actions[] commands = new e260_Garage_Door.Actions[]
+            string[] lines = new string[]
             {
-                e260_Garage_Door.Actions.Click,
-                e260_Garage_Door.Actions.Wait,
-                e260_Garage_Door.Actions.Click,
-                e260_Garage_Door.Actions.Click,
-                e260_Garage_Door.Actions.Click,
-                e260_Garage_Door.Actions.Click,
-                e260_Garage_Door.Actions.Click,
-                e260_Garage_Door.Actions.Wait,
+                "    ",
+                "VAR I",
+                " FOR I=1 TO 31",
+                "               IF !(I MOD 3) THEN",
+                "  PRINT \"FIZZ\"",
+                "       ENDIF",
+                "                   IF !(I MOD 5) THEN",
+                "                 PRINT \"BUZZ\"",
+                "                   ENDIF",
+                "               IF(I MOD 3) && (I MOD 5) THEN",
+                "      PRINT \"FIZZBUZZ\"",
+                "       ENDIF",
+                "                NEXT",
             };
 
-            IChallenge<int[]> challenge = new e260_Garage_Door();
-            challenge.GetResult(commands);
+            e269_BASIC_Formatting challenge = new e269_BASIC_Formatting();
+            challenge.CheckForErrors(lines);
         }
     }
 }

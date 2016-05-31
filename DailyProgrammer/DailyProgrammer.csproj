@@ -46,6 +46,7 @@
     <Compile Include="e263_Shannon_Entropy.cs" />
     <Compile Include="e264_Magic_Square.cs" />
     <Compile Include="e266_Node_Degrees.cs" />
+    <Compile Include="e269_BASIC_Formatting.cs" />
     <Compile Include="IChallenge.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
