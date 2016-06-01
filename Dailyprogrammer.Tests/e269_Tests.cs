@@ -135,7 +135,7 @@ namespace Dailyprogrammer.Tests
                 "ENDIF"
             };
 
-            string[] expected = new string[] { "EXTRA IF", "MISSING NEXT" };
+            string[] expected = new string[] { "EXTRA ENDIF", "MISSING NEXT" };
             string[] actual = c.CheckForErrors(lines);
 
             CollectionAssert.AreEqual(expected, actual);

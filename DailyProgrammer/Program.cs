@@ -20,11 +20,11 @@
                 "               IF(I MOD 3) && (I MOD 5) THEN",
                 "      PRINT \"FIZZBUZZ\"",
                 "       ENDIF",
-                "                NEXT",
+                "                NEXT"
             };
 
             e269_BASIC_Formatting challenge = new e269_BASIC_Formatting();
-            challenge.CheckForErrors(lines);
+            challenge.GetResult(lines);
         }
     }
 }

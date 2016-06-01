@@ -6,3 +6,4 @@ Done:
 * e263 - Shannon Entropy
 * e264 - Magic Square
 * e266 - Node Degrees
+* e269 - BASIC formatting (with terribad bonus implementation)
