@@ -55,6 +55,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="e232_Tests.cs" />
     <Compile Include="e254_Tests.cs" />
     <Compile Include="e263_Tests.cs" />
     <Compile Include="e264_Tests.cs" />

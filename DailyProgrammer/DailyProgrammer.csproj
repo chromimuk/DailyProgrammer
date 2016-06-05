@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="e232_Palindromes.cs" />
     <Compile Include="e254_Atbash_Cipher.cs" />
     <Compile Include="e260_Garage_Door.cs" />
     <Compile Include="e263_Shannon_Entropy.cs" />
