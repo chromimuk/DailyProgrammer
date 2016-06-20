@@ -48,6 +48,7 @@
     <Compile Include="e264_Magic_Square.cs" />
     <Compile Include="e266_Node_Degrees.cs" />
     <Compile Include="e269_BASIC_Formatting.cs" />
+    <Compile Include="e272_Scrabble.cs" />
     <Compile Include="i270_Markov_Process.cs" />
     <Compile Include="IChallenge.cs" />
     <Compile Include="Program.cs" />

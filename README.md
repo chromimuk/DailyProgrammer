@@ -9,3 +9,4 @@ Done:
 * e266 - Node Degrees
 * e269 - BASIC formatting
 * i270 - Markov Process
+* e272 - Scrabble
