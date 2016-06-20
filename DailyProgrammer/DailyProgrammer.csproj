@@ -48,6 +48,7 @@
     <Compile Include="e264_Magic_Square.cs" />
     <Compile Include="e266_Node_Degrees.cs" />
     <Compile Include="e269_BASIC_Formatting.cs" />
+    <Compile Include="h270_Alien_Invasion.cs" />
     <Compile Include="e272_Scrabble.cs" />
     <Compile Include="i270_Markov_Process.cs" />
     <Compile Include="IChallenge.cs" />
@@ -56,7 +57,7 @@
     <Compile Include="Tools.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="res\e266_input.txt" />
+    <Content Include="res\input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

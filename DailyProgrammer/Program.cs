@@ -1,15 +1,15 @@
-﻿namespace DailyProgrammer
+﻿using Dailyprogrammer;
+
+namespace DailyProgrammer
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // string[] lines = Tools.ReadFile("res\\e266_input.txt");
-
-            string input = "PQAREIOURSTHGWIOAE_";
+            string[] lines = Tools.ReadFile("res\\input.txt");
             
-            e272_Scrabble challenge = new e272_Scrabble();
-            challenge.GetResult(input);
+            h270_Alien_Invasion challenge = new h270_Alien_Invasion();
+            challenge.GetResult(lines);
         }
     }
 }
